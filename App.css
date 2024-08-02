@@ -1,0 +1,32 @@
+/* src/App.css */
+body {
+  background-color: #212912;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.user-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.user-card {
+  border: 2px solid #380a0a;
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #9e83836c;
+  text-align: left;
+}
+
+.user-card h2 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.user-card p {
+  margin: 5px 0;
+}
